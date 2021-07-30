@@ -1,12 +1,27 @@
 .bg-drak_blue {
-    background-color: #223c66!important;
+    background-color: #223c66!important
 }
 .navbar-brand {
-    width: 81px;
+    width: 100px;
+	padding-bottom: -0.85rem!important;
+    padding-top: -0.85rem!important;
 }
-.navbar-light .navbar-nav .nav-link {
+
+.navbar-brand-img {
+    max-height: 3.4rem!important;
+}
+.navbar-text {
     color: #d0d0d0!important;
+	line-height: 1.2!important;
 }
+.navbar-text a:link, a:visited, a:hover, a:active {
+    text-decoration: none!important;
+	cursor: pointer; 
+}
+.navbar-text hover {
+    text-decoration: none;
+}
+
 .bg-light_blue {
     background-color: #1a5f89!important;
 }
@@ -19,16 +34,24 @@
 .img-fluidA {
     max-width: 65%!important;
 }
-.text-gray-700 {
-    color: #ffffff!important;
-}
 .icon>svg {
     height: 5rem!important;
     width: 5rem!important;
+}
+.welcomtext{
+	font-weight:bold!important;
+	font-size: 4rem;
 }
 
 @media (max-width: 991.98px){
 .display-3 {
     font-size: 2.10rem!important;
+}
+	.navbar-text {
+     color: #335eea!important;
+}
+	.welcomtext{
+	font-weight:bold!important;
+	font-size: 3rem;
 }
 	}
